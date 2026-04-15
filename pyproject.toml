@@ -1,0 +1,20 @@
+[project]
+name = "rag-agentic"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb>=1.5.5",
+    "ipython>=8.39.0",
+    "langchain>=1.2.15",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.2.25",
+    "langchain-huggingface>=1.2.1",
+    "langchain-ollama>=1.0.1",
+    "langchain-openai>=1.1.12",
+    "langgraph>=1.1.6",
+    "langgraph-cli[inmem]>=0.4.19",
+    "onnxruntime>=1.20.0,<1.24.0",
+    "python-dotenv>=1.2.2",
+]
